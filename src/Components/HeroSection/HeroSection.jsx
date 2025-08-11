@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { FiArrowRight } from "react-icons/fi";
+import { FiArrowRight, FiDownload } from "react-icons/fi";
 
 const HeroSection = () => {
   const [isAnimated, setIsAnimated] = useState(false);
@@ -17,7 +17,7 @@ const HeroSection = () => {
       id="home"
       className="relative lg:h-[90vh] flex items-center justify-center pt-24 pb-20 overflow-hidden bg-gray-50 text-gray-900 scroll-mt-[100px]"
     >
-      {/* SVG Box Pattern Background */}
+      {/* SVG Pattern Background */}
       <svg
         className="absolute inset-0 w-full h-full opacity-10 z-0"
         xmlns="http://www.w3.org/2000/svg"
@@ -50,42 +50,66 @@ const HeroSection = () => {
         <rect width="100%" height="100%" fill="url(#hero-box-pattern)" />
       </svg>
 
-      {/* Background Blobs */}
-      <div className="absolute top-[-100px] left-[-80px] w-[250px] h-[250px] bg-blue-300 rounded-full blur-3xl opacity-30 animate-pulse z-0"></div>
-      <div className="absolute bottom-[-100px] right-[-60px] w-[230px] h-[230px] bg-purple-300 rounded-full blur-2xl opacity-30 animate-pulse z-0"></div>
+      {/* Decorative Blobs */}
+      <div className="absolute top-[-100px] left-[-80px] w-[250px] h-[250px] bg-blue-300 rounded-full blur-3xl opacity-30 animate-pulse"></div>
+      <div className="absolute bottom-[-100px] right-[-60px] w-[230px] h-[230px] bg-purple-300 rounded-full blur-2xl opacity-30 animate-pulse"></div>
 
       {/* Main Content */}
-      <div className="container mx-auto">
+      <div className="container mx-auto lg:px-0 px-4">
         <div className="relative z-20 flex flex-col-reverse md:flex-row items-center gap-8 md:gap-12 justify-between">
-          {/* Left Content */}
-          <div className="max-w-xl text-center md:text-left space-y-6">
-            <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight text-gray-800">
+          {/* Text Content */}
+          <div className="max-w-xl text-center md:text-left space-y-8">
+            <h1 className="text-4xl lg:mt-0 mt-5 sm:text-5xl font-extrabold leading-tight text-gray-800">
               Hi, I'm <span className="text-cyan-700">Mohammad</span>
             </h1>
-            <p className="text-xl sm:text-2xl font-medium text-gray-700">
-              A passionate{" "}
-              <span className="text-cyan-600 font-semibold">
-                Full Stack Developer
-              </span>{" "}
-              crafting modern web experiences with the{" "}
-              <span className="text-purple-600 font-semibold">MERN Stack</span>.
+            <p className="text-xl sm:text-2xl font-semibold text-gray-700 max-w-lg mx-auto md:mx-0">
+              A dedicated{" "}
+              <span className="text-cyan-600">Full Stack Developer</span>{" "}
+              focused on building{" "}
+              <span className="text-purple-600">modern, efficient,</span> and
+              <span className="text-purple-600"> scalable</span> web
+              applications using the powerful{" "}
+              <span className="text-cyan-600">MERN Stack</span>.
             </p>
-            <p className="text-md sm:text-lg text-gray-600">
-              I turn ideas into scalable and responsive web applications.
+            <p className="text-md sm:text-lg text-gray-600 max-w-lg mx-auto md:mx-0">
+              I specialize in creating seamless user experiences with clean,
+              maintainable code, integrating secure authentication, and
+              optimizing performance for fast load times. Let's bring your ideas
+              to life with cutting-edge technologies!
             </p>
-            <a
-              href="#projects"
-              className="inline-flex items-center gap-2 px-6 py-2 bg-cyan-600 text-white rounded-full hover:bg-cyan-700 transition"
-            >
-              View My Work <FiArrowRight className="text-lg" />
-            </a>
 
-            <div className="flex justify-center md:justify-start space-x-6 text-3xl text-cyan-600">
+            {/* Buttons */}
+            <div className="flex flex-wrap justify-center md:justify-start gap-6">
+              {/* Outline Button */}
+              <a
+                href="#projects"
+                className="inline-flex items-center px-6 py-3 rounded-lg border border-cyan-600 text-cyan-600 font-semibold
+               hover:bg-cyan-600 hover:text-white transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2"
+              >
+                View My Work
+                <FiArrowRight className="ml-2" />
+              </a>
+
+              {/* Solid Button */}
+              <a
+                href="/resume.pdf"
+                download
+                className="inline-flex items-center px-6 py-3 rounded-lg bg-cyan-600 text-white font-semibold
+               hover:bg-cyan-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2"
+              >
+                Download Resume
+                <FiDownload className="ml-2" />
+              </a>
+            </div>
+
+            {/* Social Links */}
+            <div className="flex justify-center md:justify-start space-x-6 text-3xl text-cyan-600 ">
               <a
                 href="https://github.com/Mohammad7558/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-cyan-800 transition-colors duration-300"
+                aria-label="GitHub"
               >
                 <FaGithub />
               </a>
@@ -94,6 +118,7 @@ const HeroSection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-cyan-800 transition-colors duration-300"
+                aria-label="LinkedIn"
               >
                 <FaLinkedin />
               </a>
@@ -102,26 +127,22 @@ const HeroSection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-cyan-800 transition-colors duration-300"
+                aria-label="Twitter"
               >
                 <FaTwitter />
               </a>
             </div>
           </div>
 
-          {/* Right Side Image */}
-          <div className="relative w-[250px] h-[400px] sm:w-[300px] sm:h-[490px] flex items-end justify-start">
-            {/* Blob Under Image */}
-            <div className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2 w-[220px] h-[120px] bg-cyan-300 rounded-full blur-2xl opacity-25 z-0"></div>
+          {/* Image Section */}
+          <div className="relative w-[300px] sm:w-[300px] md:w-[350px] flex items-center justify-center">
+            {/* Glow Effect */}
+            <div className="absolute w-[90%] h-[90%] bg-cyan-300 rounded-2xl blur-3xl opacity-30"></div>
 
-            {/* Background Layer */}
-            <div className="border-3 border-white absolute bottom-0 left-0 w-full h-full bg-blue-400 rounded-2xl shadow-md rotate-[2deg] z-0"></div>
-
-            {/* Animated Main Image */}
+            {/* Image Frame */}
             <div
-              className={`relative z-10 w-full h-full rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform transition-transform duration-400 ease-out ${
-                isAnimated
-                  ? "-rotate-[4deg] -translate-x-10 -translate-y-7"
-                  : ""
+              className={`relative z-10 rounded-2xl overflow-hidden shadow-2xl border-4 border-white transform transition-all duration-500 ease-out ${
+                isAnimated ? "rotate-0 scale-105" : "rotate-3 scale-95"
               }`}
             >
               <img

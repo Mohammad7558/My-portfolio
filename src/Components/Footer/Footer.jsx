@@ -6,7 +6,7 @@ import { Link } from "react-router";
 const Footer = () => {
   return (
     <footer className="bg-slate-100 dark:bg-gray-900 text-gray-700 dark:text-gray-300 mt-24">
-      <div className="w-11/12 mx-auto py-10 border-t border-gray-200 dark:border-gray-700">
+      <div className="container mx-auto py-10 border-t border-gray-200 dark:border-gray-700">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           {/* Logo and Name */}
           <div className="text-center md:text-left">

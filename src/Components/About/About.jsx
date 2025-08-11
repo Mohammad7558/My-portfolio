@@ -29,32 +29,25 @@ const About = () => {
           About Me
         </h2>
         <p className="text-lg leading-relaxed mb-10">
-          Assalamu Alaikum! I'm a passionate{" "}
-          <span className="text-cyan-600 font-semibold">Madrasa student</span>{" "}
-          with a deep love for technology and creativity. Since childhood, I've
-          dreamed of becoming a programmer. That dream led me to enroll in{" "}
-          <span className="text-cyan-600 font-semibold">Programming Hero</span>,
-          where I began my journey with the{" "}
-          <span className="text-cyan-600 font-semibold">MERN Stack</span>.
+          Assalamu Alaikum! I'm <span className="font-semibold text-gray-800">Mohammad</span>, 
+          a <span className="text-cyan-600 font-semibold">Madrasa student</span> turned passionate web developer. 
+          My programming journey started with simple HTML & CSS exercises, then I moved into JavaScript and React 
+          through <span className="text-cyan-600 font-semibold">Programming Hero</span>. Life forced a pause for a while 
+          due to studies, but I recently rejoined and picked up the 
+          <span className="text-cyan-600 font-semibold"> MERN stack</span> (React, Node, Express, MongoDB) — 
+          now building real projects again.
           <br />
           <br />
-          Although I had to pause my learning due to my academic studies, I
-          didn’t let that stop me. Recently, I rejoined Programming Hero and
-          have been actively building my skills again. I’m currently shaping my
-          path as a <span className="text-cyan-600 font-semibold">junior full-stack developer</span>, with a strong interest in both
-          frontend and backend development.
+          I enjoy building <span className="text-cyan-600 font-semibold">modern, responsive</span> and 
+          <span className="text-purple-600 font-semibold"> user-friendly</span> web apps that solve real problems. 
+          Clean code, clear UX, and reliable performance excite me the most — whether it's a sleek frontend 
+          or a solid backend API.
           <br />
           <br />
-          I especially enjoy working on{" "}
-          <span className="text-cyan-600 font-semibold">modern, responsive websites</span> that are both functional and
-          user-friendly. Clean code, smooth user experience, and solving real
-          problems are what drive me forward as a developer.
-          <br />
-          <br />
-          Beyond programming, I love playing{" "}
-          <span className="text-cyan-600 font-semibold">football</span>. It keeps me active, balanced, and helps refresh my
-          mind. Whether on the field or behind the screen, I always bring energy,
-          dedication, and a learner's mindset.
+          Outside programming I love playing <span className="text-cyan-600 font-semibold">football</span>, 
+          which keeps me active and clears my mind. I also enjoy reading and experimenting with small side 
+          projects — that mix of physical activity and tinkering keeps my creativity flowing. I'm curious, 
+          persistent, and I learn by building.
         </p>
       </div>
     </section>

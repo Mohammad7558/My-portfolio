@@ -23,13 +23,13 @@ const projects = [
     github: "https://github.com/Mohammad7558/Freelancer-Hub-Frontend",
   },
   {
-    title: "React Event Booking App with Authentication",
+    title: "Study Platform",
     description:
-      "A secure event booking platform built with React. Users must log in to view full event details and make bookings.",
-    image: "https://i.ibb.co/hxtgqPnz/event-master-3ebf5-firebaseapp-com-2.png",
-    tech: ["React", "Tailwind CSS", "Firebase"],
-    live: "https://event-master-3ebf5.firebaseapp.com/",
-    github: "https://github.com/Mohammad7558/React-Authentication",
+      "A Modern Study Platform A full-featured MERN stack-based study platform where users can register as a Student, Tutor, or Admin. Tutor – Create and sell your own courses, share your knowledge, and earn money. Student – Access a wide range of high-quality courses from the best tutors and enhance your learning journey. Admin – Manage tutors, student",
+    image: "https://i.ibb.co.com/FbvKpnGB/68747470733a2f2f692e6962622e636f2e636f6d2f516a363453396b742f7468652d6c6173742d64616e63652d3132323766.png",
+    tech: ["React", "Tailwind CSS", "Node.js", "MongoDB", "Express"],
+    live: "https://the-last-dance-1227f.web.app/",
+    github: "https://github.com/Mohammad7558/Study-Platform",
   },
 ];
 
