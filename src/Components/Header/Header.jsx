@@ -28,7 +28,7 @@ const Header = () => {
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
     if (section) {
-      const headerOffset = 100; // তোমার হেডারের height অনুযায়ী অ্যাডজাস্ট করো
+      const headerOffset = 100;
       const elementPosition =
         section.getBoundingClientRect().top + window.scrollY;
       const offsetPosition = elementPosition - headerOffset;
@@ -42,7 +42,7 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY + 120; // একটু বেশি মার্জিন
+      const scrollPosition = window.scrollY + 120;
       for (const item of navItems) {
         const section = document.getElementById(item.id);
         if (section) {
