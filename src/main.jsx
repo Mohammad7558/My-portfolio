@@ -4,11 +4,16 @@ import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter } from 'react-router'
 import { RouterProvider } from 'react-router-dom'
+import ProjectDetail from './Components/Project/ProjectDetail.jsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
     Component: App
+  },
+  {
+    path: '/projects/:id',
+    element: <ProjectDetail/>
   }
 ])
 

@@ -63,14 +63,8 @@ const HeroSection = () => {
               Hi, I'm <span className="text-cyan-700">Mohammad</span>
             </h1>
             <p className="text-xl sm:text-2xl font-semibold text-gray-700 max-w-lg mx-auto md:mx-0">
-              A dedicated{" "}
-              <span className="text-cyan-600">Full Stack Developer</span>{" "}
-              focused on building{" "}
-              <span className="text-purple-600">modern, efficient,</span> and
-              <span className="text-purple-600"> scalable</span> web
-              applications using the powerful{" "}
-              <span className="text-cyan-600">MERN Stack</span>.
-            </p>
+  I am a <span className="text-cyan-600">Full Stack Developer</span> passionate about building modern web apps.
+</p>
             <p className="text-md sm:text-lg text-gray-600 max-w-lg mx-auto md:mx-0">
               I specialize in creating seamless user experiences with clean,
               maintainable code, integrating secure authentication, and
