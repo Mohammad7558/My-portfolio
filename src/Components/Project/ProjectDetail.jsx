@@ -73,9 +73,6 @@ const ProjectDetail = () => {
           >
             <FiArrowLeft /> Back
           </button>
-          <Link to="/projects" className="text-sm text-gray-600 hover:underline">
-            ← All Projects
-          </Link>
         </div>
 
         <div className="bg-white rounded-3xl shadow-lg overflow-hidden">
