@@ -137,7 +137,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="py-24 mt-36 px-6 bg-gray-50 text-gray-900 relative overflow-hidden"
+      className="py-24 mt-20 px-6 bg-gray-50 text-gray-900 relative overflow-hidden"
     >
       <BackgroundElements />
 

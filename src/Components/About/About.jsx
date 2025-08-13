@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section id="about" className="pt-36 px-6 md:px-20 bg-white text-gray-800">
+    <section id="about" className="pt-20 px-6 md:px-20 bg-white text-gray-800">
       <div className="max-w-4xl mx-auto text-center">
         {/* Profile Image */}
         <div className="flex justify-center mb-6">
@@ -28,7 +28,7 @@ const About = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-cyan-600 mb-4">
           About Me
         </h2>
-        <p className="text-lg leading-relaxed mb-10">
+        <p className="text-lg leading-relaxed mb-7">
           Assalamu Alaikum! I'm <span className="font-semibold text-gray-800">Mohammad</span>, 
           a <span className="text-cyan-600 font-semibold">Madrasa student</span> turned passionate web developer. 
           My programming journey started with simple HTML & CSS exercises, then I moved into JavaScript and React 
