@@ -107,7 +107,8 @@ const Header = () => {
             onClick={handleResumeDownload}
             className="flex items-center gap-2 bg-cyan-600 text-white px-4 lg:px-5 py-2 text-sm lg:text-base rounded-full font-medium hover:bg-cyan-700 transition"
           >
-            Download Resume
+            <a href="/public/resume.pdf" download='My-Resume.pdf'>
+            Download Resume</a>
           <FiDownload size={18} />
           </button>
         </div>

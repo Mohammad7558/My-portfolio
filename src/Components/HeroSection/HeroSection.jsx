@@ -86,8 +86,8 @@ const HeroSection = () => {
 
               {/* Solid Button */}
               <a
-                href="/resume.pdf"
-                download
+                href="/public/resume.pdf"
+                download='My-Resume.pdf'
                 className="inline-flex items-center px-6 py-3 rounded-lg bg-cyan-600 text-white font-semibold
                hover:bg-cyan-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2"
               >
