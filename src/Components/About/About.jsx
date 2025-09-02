@@ -29,25 +29,38 @@ const About = () => {
           About Me
         </h2>
         <p className="text-lg leading-relaxed mb-7">
-          Assalamu Alaikum! I'm <span className="font-semibold text-gray-800">Mohammad</span>, 
-          a <span className="text-cyan-600 font-semibold">Madrasa student</span> turned passionate web developer. 
-          My programming journey started with simple HTML & CSS exercises, then I moved into JavaScript and React 
-          through <span className="text-cyan-600 font-semibold">Programming Hero</span>. Life forced a pause for a while 
-          due to studies, but I recently rejoined and picked up the 
-          <span className="text-cyan-600 font-semibold"> MERN stack</span> (React, Node, Express, MongoDB) — 
-          now building real projects again.
+          Assalamu Alaikum! I'm{" "}
+          <span className="font-semibold text-gray-800">Mohammad</span>, a{" "}
+          <span className="text-cyan-600 font-semibold">Madrasa student</span>{" "}
+          turned passionate web developer. My programming journey started with
+          simple HTML & CSS exercises, then I moved into JavaScript and React
+          through{" "}
+          <span className="text-cyan-600 font-semibold">Programming Hero</span>.
+          Life forced a pause for a while due to studies, but I recently
+          rejoined and picked up the
+          <span className="text-cyan-600 font-semibold"> MERN stack</span>{" "}
+          (React, Node, Express, MongoDB) — now building real projects again.
+          <br />
+          <br />I enjoy building{" "}
+          <span className="text-cyan-600 font-semibold">
+            modern, responsive
+          </span>{" "}
+          and
+          <span className="text-purple-600 font-semibold">
+            {" "}
+            user-friendly
+          </span>{" "}
+          web apps that solve real problems. Clean code, clear UX, and reliable
+          performance excite me the most — whether it's a sleek frontend or a
+          solid backend API.
           <br />
           <br />
-          I enjoy building <span className="text-cyan-600 font-semibold">modern, responsive</span> and 
-          <span className="text-purple-600 font-semibold"> user-friendly</span> web apps that solve real problems. 
-          Clean code, clear UX, and reliable performance excite me the most — whether it's a sleek frontend 
-          or a solid backend API.
-          <br />
-          <br />
-          Outside programming I love playing <span className="text-cyan-600 font-semibold">football</span>, 
-          which keeps me active and clears my mind. I also enjoy reading and experimenting with small side 
-          projects — that mix of physical activity and tinkering keeps my creativity flowing. I'm curious, 
-          persistent, and I learn by building.
+          Outside programming I love playing{" "}
+          <span className="text-cyan-600 font-semibold">football</span>, which
+          keeps me active and clears my mind. I also enjoy reading and
+          experimenting with small side projects — that mix of physical activity
+          and tinkering keeps my creativity flowing. I'm curious, persistent,
+          and I learn by building.
         </p>
       </div>
     </section>
