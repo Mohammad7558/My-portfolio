@@ -144,7 +144,7 @@ const ProjectCard = ({ project, index, techIcons }) => (
 // Main Project Section
 const Project = () => {
   return (
-    <section id="projects" className="py-20 mt-36 md:py-28 px-4 md:px-12 lg:px-20 bg-gray-50">
+    <section id="projects" className="py-20  md:py-28 px-4 md:px-12 lg:px-20 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
